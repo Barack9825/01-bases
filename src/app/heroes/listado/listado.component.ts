@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-listado',
@@ -16,7 +16,5 @@ export class ListadoComponent {
 
   borrarHeroe() {
     this.heroeBorrado = this.heroes.shift() || '';
-    
-    
   }
 }
